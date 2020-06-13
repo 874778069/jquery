@@ -223,19 +223,10 @@
 
 
 <script>
-  $.get(" http://localhost:3000/item", function (data) {
-    var html = template('temp', {data: data[0]});
-    $('#app').append(html);
-  })
-  let a = {
-    list: [],
-    currAccount: {},
-    toggle: true,
-    addGzh: '请添加公众号',
-    accountName: '',
-    loading: false,
-		a: 4
-  }
+    $.get(" http://localhost:3000/item",function (data) {
+        var html = template('temp',{data : data[0]});
+        $('#app').append(html);
+    })
 </script>
 
 </body>
