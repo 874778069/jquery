@@ -26,7 +26,6 @@
 
     $.get(" http://localhost:3000/home", function (homeData) {
       console.log(homeData);
-      console.log(homeData);
       let render = template.compile(data);
       let html = render({home: homeData});
       $('#app').append(html);
