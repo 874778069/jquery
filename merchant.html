@@ -223,8 +223,9 @@
 
 
 <script>
-    $.get(" http://localhost:3000/item",function (data) {
-        var html = template('temp',{data : data[0]});
+    $.get("http://localhost:3000/item",function (data) {
+      console.log(data);
+      var html = template('temp',{data : data[0]});
         $('#app').append(html);
     })
 </script>
