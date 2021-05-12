@@ -12,6 +12,6 @@
   "dependencies": {
     "art-template": "^4.13.2",
     "jquery": "^3.5.0",
-    "swiper": "^4.4.2"
+    "swiper": "^6.5.1"
   }
 }
